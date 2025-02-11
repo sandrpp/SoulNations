@@ -1,0 +1,4 @@
+name: SoulNations
+version: '1.0-SNAPSHOT'
+main: de.sandrp.soulNations.SoulNations
+api-version: '1.21'
