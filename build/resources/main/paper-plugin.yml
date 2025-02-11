@@ -1,4 +1,9 @@
-name: SoulNations
-version: '1.0-SNAPSHOT'
-main: de.sandrp.soulNations.SoulNations
+name: Main
+version: '1.0'
+main: de.sandrp.soulNations.Main
 api-version: '1.21'
+loader: de.sandrp.soulNations.systemclasses.Loader
+authors:
+  - Gemmer
+  - Elia
+  - Wate
