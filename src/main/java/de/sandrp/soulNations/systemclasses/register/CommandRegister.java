@@ -1,7 +1,7 @@
 package de.sandrp.soulNations.systemclasses.register;
 
 
-import de.sandrp.soulNations.nationarena.commands.NationArenaCommand;
+import de.sandrp.soulNations.nationarena.NationArenaCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.command.Command;
