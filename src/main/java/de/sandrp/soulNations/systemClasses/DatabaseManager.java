@@ -1,4 +1,4 @@
-package de.sandrp.soulNations.systemclasses;
+package de.sandrp.soulNations.systemClasses;
 
 import java.sql.*;
 

@@ -1,7 +1,7 @@
-package de.sandrp.soulNations.systemclasses.register;
+package de.sandrp.soulNations.systemClasses.register;
 
 
-import de.sandrp.soulNations.nationarena.NationArenaCommand;
+import de.sandrp.soulNations.nationsSystem.NationEventCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.command.Command;
@@ -18,7 +18,7 @@ public class CommandRegister {
   private static final @NotNull Map<String, Command> COMMANDS = new HashMap<>();
 
   static {
-    COMMANDS.put("nationarena", new NationArenaCommand());
+    COMMANDS.put("nationevent", new NationEventCommand());
   }
 
   public static void registerCommand(@NotNull String name, @NotNull Command command, @NotNull Server server){
