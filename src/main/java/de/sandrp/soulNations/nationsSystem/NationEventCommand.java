@@ -99,9 +99,6 @@ public class NationEventCommand extends Command {
                     case "snowball":
                         tournamentManager.setCurrentEvent(Events.SNOWBALL_FIGHT);
                         break;
-                    case "general":
-                        tournamentManager.setCurrentEvent(Events.GENERAL_FIGHT);
-                        break;
                     case "redlightgreenlight":
                         tournamentManager.setCurrentEvent(Events.RED_LIGHT_GREEN_LIGHT);
                         break;
@@ -130,6 +127,7 @@ public class NationEventCommand extends Command {
 
         List<String> events = new ArrayList<>();
         events.add("snowball");
+        events.add("redLightGreenLight");
         events.add("none");
 
         if(args.length == 1){

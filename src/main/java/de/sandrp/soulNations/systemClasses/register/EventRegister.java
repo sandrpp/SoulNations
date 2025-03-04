@@ -22,21 +22,8 @@ public class EventRegister {
     EVENTS.add(new RLGLMoveListener());
   }
 
-  public static void registerEvents(@NotNull PluginManager pluginManager, @NotNull Plugin plugin){
-    EVENTS.forEach(listener -> pluginManager.registerEvents(listener, plugin));
-  }
-
   public static void registerEvents(@NotNull Plugin plugin){
     EVENTS.forEach(listener -> Bukkit.getPluginManager().registerEvents(listener, plugin));
-  }
-
-  public static void registerEvent(@NotNull PluginManager pluginManager, @NotNull Listener listener, @NotNull Plugin plugin){
-    EVENTS.add(listener);
-    pluginManager.registerEvents(listener, plugin);
-  }
-
-  public static void registerEvent(@NotNull Listener listener, @NotNull Plugin plugin){
-    Bukkit.getPluginManager().registerEvents(listener, plugin);
   }
 
 }
